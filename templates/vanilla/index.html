@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    {% include 'vanilla/nav.html' %}
+    <h1>Добро пожаловать на обычный интерфейс!</h1>
+    <p>Текущее время: <strong>{{ current_time }}</strong></p>
+</body>
+</html>

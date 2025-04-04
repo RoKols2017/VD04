@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Блог</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    {% include 'vanilla/nav.html' %}
+    <h1>Блог</h1>
+    <p>Здесь публикуются свежие статьи и мысли.</p>
+    <ul>
+        <li><strong>01.04.2025:</strong> Flask теперь с поддержкой UI-переключения!</li>
+        <li><strong>28.03.2025:</strong> Добавлен модуль авторизации.</li>
+    </ul>
+</body>
+</html>
